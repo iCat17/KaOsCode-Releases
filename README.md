@@ -10,6 +10,7 @@ Der Quellcode liegt nicht in diesem Repository.
 | App | Beschreibung | Releases | Datenschutz |
 |---|---|---|---|
 | **Spectare PDF** | PDF-Viewer, komplett offline | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=spectare) | [Datenschutzerklärung](https://icat17.github.io/spectare-privacy/) |
+| **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | folgt |
 
 ## Installation
 
