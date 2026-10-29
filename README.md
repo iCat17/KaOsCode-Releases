@@ -11,6 +11,7 @@ Der Quellcode liegt nicht in diesem Repository.
 |---|---|---|---|
 | **Spectare PDF** | PDF-Viewer, komplett offline | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=spectare) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff, keine Sicherung |
 | **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | folgt |
+| **Arrowly** | Logikpuzzle: Pfeile in der richtigen Reihenfolge vom Feld schieben | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=arrowly) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff; Spielstand nur auf dem Gerät |
 
 ## Installation
 
@@ -38,6 +39,7 @@ Installation files (APK) for KaOsCode's Android apps.
 The source code is not part of this repository.
 
 Spectare PDF collects no data: no permissions, no internet access, no backup.
+Arrowly collects no data: no permissions, no internet access; game progress stays on the device.
 
 ## Installation
 
