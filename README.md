@@ -9,7 +9,7 @@ Der Quellcode liegt nicht in diesem Repository.
 
 | App | Beschreibung | Releases | Datenschutz |
 |---|---|---|---|
-| **Spectare PDF** | PDF-Viewer, komplett offline | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=spectare) | [Datenschutzerklärung](https://icat17.github.io/spectare-privacy/) |
+| **Spectare PDF** | PDF-Viewer, komplett offline | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=spectare) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff, keine Sicherung |
 | **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | folgt |
 
 ## Installation
@@ -36,6 +36,8 @@ kaos-code@outlook.com
 
 Installation files (APK) for KaOsCode's Android apps.
 The source code is not part of this repository.
+
+Spectare PDF collects no data: no permissions, no internet access, no backup.
 
 ## Installation
 
