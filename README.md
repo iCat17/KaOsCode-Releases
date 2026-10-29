@@ -10,7 +10,7 @@ Der Quellcode liegt nicht in diesem Repository.
 | App | Beschreibung | Releases | Datenschutz |
 |---|---|---|---|
 | **Spectare PDF** | PDF-Viewer, komplett offline | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=spectare) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff, keine Sicherung |
-| **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | folgt |
+| **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | Erhebt selbst keine Daten. Kurse werden direkt von Yahoo Finance geladen, dabei sieht Yahoo IP-Adresse und abgefragte Symbole |
 | **Arrowly** | Logikpuzzle: Pfeile in der richtigen Reihenfolge vom Feld schieben | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=arrowly) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff; Spielstand nur auf dem Gerät |
 
 ## Installation
@@ -39,6 +39,7 @@ Installation files (APK) for KaOsCode's Android apps.
 The source code is not part of this repository.
 
 Spectare PDF collects no data: no permissions, no internet access, no backup.
+Benchly collects no data itself. Prices are loaded directly from Yahoo Finance, which sees your IP address and the requested symbols.
 Arrowly collects no data: no permissions, no internet access; game progress stays on the device.
 
 ## Installation
