@@ -10,7 +10,7 @@ Der Quellcode liegt nicht in diesem Repository.
 | App | Beschreibung | Releases | Datenschutz |
 |---|---|---|---|
 | **Spectare PDF** | PDF-Viewer mit Dokumentenscanner | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=spectare) | Erhebt selbst keine Daten: keine Berechtigungen, kein Internetzugriff, keine Sicherung. Der optionale Scanner kommt aus den Google Play Services: Die Dokumente bleiben auf dem Gerät, Google erhält Nutzungsstatistiken zum Scanner |
-| **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | Erhebt selbst keine Daten. Kurse werden direkt von Yahoo Finance geladen, dabei sieht Yahoo IP-Adresse und abgefragte Symbole |
+| **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | Erhebt selbst keine Daten. Kurse werden direkt von Yahoo Finance geladen, dabei sieht Yahoo IP-Adresse und abgefragte Symbole. Bei der Suche nach einer WKN wird diese an OpenFIGI (Bloomberg) gesendet |
 | **Arrowly** | Logikpuzzle: Pfeile in der richtigen Reihenfolge vom Feld schieben | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=arrowly) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff; Spielstand nur auf dem Gerät |
 
 ## Installation
@@ -39,7 +39,7 @@ Installation files (APK) for KaOsCode's Android apps.
 The source code is not part of this repository.
 
 Spectare PDF collects no data itself: no permissions, no internet access, no backup. The optional scanner is provided by Google Play Services: documents stay on the device, Google receives usage statistics about the scanner.
-Benchly collects no data itself. Prices are loaded directly from Yahoo Finance, which sees your IP address and the requested symbols.
+Benchly collects no data itself. Prices are loaded directly from Yahoo Finance, which sees your IP address and the requested symbols. When you search for a WKN, it is sent to OpenFIGI (Bloomberg).
 Arrowly collects no data: no permissions, no internet access; game progress stays on the device.
 
 ## Installation
