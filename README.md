@@ -12,6 +12,9 @@ Der Quellcode liegt nicht in diesem Repository.
 | **Spectare PDF** | PDF-Viewer mit Dokumentenscanner | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=spectare) | Erhebt selbst keine Daten: keine Berechtigungen, kein Internetzugriff, keine Sicherung. Der optionale Scanner kommt aus den Google Play Services: Die Dokumente bleiben auf dem Gerät, Google erhält Nutzungsstatistiken zum Scanner |
 | **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | Erhebt selbst keine Daten. Kurse werden direkt von Yahoo Finance geladen, dabei sieht Yahoo IP-Adresse und abgefragte Symbole. Bei der Suche nach einer WKN wird diese an OpenFIGI (Bloomberg) gesendet |
 | **Arrowly** | Logikpuzzle: Pfeile in der richtigen Reihenfolge vom Feld schieben | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=arrowly) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff; Spielstand nur auf dem Gerät |
+| **FlexStock** | Inventar mit Barcode-Scanner, Fotos und Einkaufsliste | [Google Play](https://play.google.com/store/apps/details?id=com.kaoscode.flexstock) | Erhebt selbst keine Daten, das Inventar bleibt auf dem Gerät. Beim Barcode-Scan wird nur die Barcode-Nummer an öffentliche Produktdatenbanken (u. a. Open Food Facts, Google Books, UPCitemdb) gesendet, die dabei die IP-Adresse sehen. [Datenschutzerklärung](https://icat17.github.io/flexstock-privacy/) |
+
+FlexStock gibt es nur bei Google Play, hier liegen keine Installationsdateien dafür.
 
 ## Installation (Android)
 
@@ -49,6 +52,7 @@ The source code is not part of this repository.
 Spectare PDF collects no data itself: no permissions, no internet access, no backup. The optional scanner is provided by Google Play Services: documents stay on the device, Google receives usage statistics about the scanner.
 Benchly collects no data itself. Prices are loaded directly from Yahoo Finance, which sees your IP address and the requested symbols. When you search for a WKN, it is sent to OpenFIGI (Bloomberg).
 Arrowly collects no data: no permissions, no internet access; game progress stays on the device.
+FlexStock (inventory with barcode scanner, photos and shopping list) is only available on [Google Play](https://play.google.com/store/apps/details?id=com.kaoscode.flexstock), there are no installation files here. It collects no data itself, your inventory stays on the device. When you scan a barcode, only the barcode number is sent to public product databases (including Open Food Facts, Google Books, UPCitemdb), which see your IP address. [Privacy policy](https://icat17.github.io/flexstock-privacy/)
 
 ## Installation (Android)
 
