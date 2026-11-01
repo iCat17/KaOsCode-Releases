@@ -38,6 +38,10 @@ Update: den neuen Installer herunterladen und ausführen, Vergleich und Einstell
 - **Quell-URL:** `https://github.com/iCat17/KaOsCode-Releases`
 - **Release-Titel nach regulärem Ausdruck filtern:** `^Spectare` (bzw. der Name der gewünschten App)
 
+## Unterstützen
+
+Wer die Entwicklung der Apps unterstützen möchte, kann das freiwillig über [Ko-fi](https://ko-fi.com/kaoscode) tun.
+
 ## Kontakt
 
 kaos-code@outlook.com
@@ -75,6 +79,10 @@ Update: download and run the new installer; your comparison and settings are kep
 Install [Obtainium](https://github.com/ImranR98/Obtainium), then **Add app**:
 - **Source URL:** `https://github.com/iCat17/KaOsCode-Releases`
 - **Filter release titles by regular expression:** `^Spectare` (or the name of the app you want)
+
+## Support
+
+If you'd like to support the development of the apps, you can make a voluntary contribution via [Ko-fi](https://ko-fi.com/kaoscode).
 
 ## Contact
 
