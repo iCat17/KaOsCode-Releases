@@ -10,7 +10,7 @@ Der Quellcode liegt nicht in diesem Repository.
 | App | Beschreibung | Releases | Datenschutz |
 |---|---|---|---|
 | **Spectare PDF** | PDF-Viewer mit Dokumentenscanner | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=spectare) | Erhebt selbst keine Daten: keine Berechtigungen, kein Internetzugriff, keine Sicherung. Der optionale Scanner kommt aus den Google Play Services: Die Dokumente bleiben auf dem Gerät, Google erhält Nutzungsstatistiken zum Scanner |
-| **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | Erhebt selbst keine Daten. Kurse werden direkt von Yahoo Finance geladen, dabei sieht Yahoo IP-Adresse und abgefragte Symbole. Bei der Suche nach einer WKN wird diese an OpenFIGI (Bloomberg) gesendet |
+| **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | Erhebt selbst keine Daten. Kurse werden direkt von Yahoo Finance geladen, dabei sieht Yahoo IP-Adresse und abgefragte Symbole. Bei der Suche nach einer WKN wird diese an OpenFIGI (Bloomberg) gesendet. Bei „Nach Updates suchen“ fragt die App GitHub nach der neuesten Version, dabei sieht GitHub die IP-Adresse |
 | **Arrowly** | Logikpuzzle: Pfeile in der richtigen Reihenfolge vom Feld schieben | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=arrowly) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff; Spielstand nur auf dem Gerät |
 | **Bonly** | Kassenbons auslesen, Preise über alle Läden vergleichen und Angebote prüfen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=bonly) | Erhebt selbst keine Daten: Die Bons bleiben auf dem Gerät, die Texterkennung läuft dort, Sicherungen nur als Datei, die du selbst ablegst. Ins Internet geht Bonly nur bei der optionalen Suche nach Packungsgrößen (standardmäßig aus): Dann gehen Namen von den Bons und die Kette an Open Food Facts und bei „Im Web nachsehen“ an Google, die dabei die IP-Adresse sehen |
 | **FlexStock** | Inventar mit Barcode-Scanner, Fotos und Einkaufsliste | [Google Play](https://play.google.com/store/apps/details?id=com.kaoscode.flexstock) | Erhebt selbst keine Daten, das Inventar bleibt auf dem Gerät. Beim Barcode-Scan wird nur die Barcode-Nummer an öffentliche Produktdatenbanken (u. a. Open Food Facts, Google Books, UPCitemdb) gesendet, die dabei die IP-Adresse sehen. [Datenschutzerklärung](https://icat17.github.io/flexstock-privacy/) |
@@ -31,7 +31,7 @@ Ein Entwicklermodus ist nicht nötig.
 2. Die Datei ausführen. Der Installer ist nicht signiert, deshalb zeigt Windows „Der Computer wurde durch Windows geschützt“: **Weitere Informationen** → **Trotzdem ausführen**.
 3. Optional prüfen: Die Ausgabe von `Get-FileHash .\benchly-….-setup.exe` (PowerShell) muss mit dem Inhalt der `.sha256`-Datei aus dem Release übereinstimmen.
 
-Update: den neuen Installer herunterladen und ausführen, Vergleich und Einstellungen bleiben erhalten.
+Update: ab Benchly 1.5.0 in der App unter Einstellungen → **Nach Updates suchen** (auch in der Android-APK). Sonst den neuen Installer herunterladen und ausführen. Vergleich und Einstellungen bleiben erhalten.
 
 ## Automatische Updates mit Obtainium
 
@@ -55,7 +55,7 @@ Installation files for KaOsCode's apps: APKs for Android, plus a Windows install
 The source code is not part of this repository.
 
 Spectare PDF collects no data itself: no permissions, no internet access, no backup. The optional scanner is provided by Google Play Services: documents stay on the device, Google receives usage statistics about the scanner.
-Benchly collects no data itself. Prices are loaded directly from Yahoo Finance, which sees your IP address and the requested symbols. When you search for a WKN, it is sent to OpenFIGI (Bloomberg).
+Benchly collects no data itself. Prices are loaded directly from Yahoo Finance, which sees your IP address and the requested symbols. When you search for a WKN, it is sent to OpenFIGI (Bloomberg). When you check for updates, the app asks GitHub for the latest version, which sees your IP address.
 Arrowly collects no data: no permissions, no internet access; game progress stays on the device.
 Bonly (reads receipts, compares prices across all stores and checks offers) collects no data itself: receipts stay on the device, text recognition runs there, and backups are only files you store yourself. Bonly only goes online for the optional pack size lookup (off by default): then names from your receipts and the chain are sent to Open Food Facts, and to Google when you tap "Look it up on the web", which see your IP address.
 FlexStock (inventory with barcode scanner, photos and shopping list) is only available on [Google Play](https://play.google.com/store/apps/details?id=com.kaoscode.flexstock), there are no installation files here. It collects no data itself, your inventory stays on the device. When you scan a barcode, only the barcode number is sent to public product databases (including Open Food Facts, Google Books, UPCitemdb), which see your IP address. [Privacy policy](https://icat17.github.io/flexstock-privacy/)
@@ -74,7 +74,7 @@ No developer mode required.
 2. Run the file. The installer is not signed, so Windows shows "Windows protected your PC": **More info** → **Run anyway**.
 3. Optional check: the output of `Get-FileHash .\benchly-….-setup.exe` (PowerShell) must match the content of the `.sha256` file in the release.
 
-Update: download and run the new installer; your comparison and settings are kept.
+Update: from Benchly 1.5.0 on, in the app under Settings → **Check for updates** (also in the Android APK). Otherwise download and run the new installer. Your comparison and settings are kept.
 
 ## Automatic updates with Obtainium
 
