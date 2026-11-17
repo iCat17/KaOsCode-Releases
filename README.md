@@ -35,7 +35,12 @@ Update: ab Benchly 1.5.0 in der App unter Einstellungen → **Nach Updates suche
 
 ## Updates (Android)
 
-Spectare ab 1.4.0 und Benchly ab 1.5.0 suchen auf Wunsch selbst nach Updates: Spectare unter ⋮ → Über Spectare, Benchly unter Einstellungen → **Nach Updates suchen**. Die App lädt die neue APK und öffnet den Android-Installer; Daten und Einstellungen bleiben erhalten.
+Spectare ab 1.4.1 und Benchly ab 1.5.0 suchen auf Wunsch selbst nach Updates.
+
+- **Spectare:** ⋮ → Über Spectare → **Nach Updates suchen** zeigt eine neue Version an und öffnet den Download im Browser. Vor dem Installieren prüft **Heruntergeladene APK prüfen**, ob die Datei von KaOsCode signiert ist. Der Fingerabdruck steht auch im Dialog und unten auf jeder Release-Seite.
+- **Benchly:** Einstellungen → **Nach Updates suchen** lädt die neue APK und öffnet den Android-Installer.
+
+Daten und Einstellungen bleiben bei Updates erhalten.
 
 ## Automatische Updates mit Obtainium
 
@@ -82,7 +87,12 @@ Update: from Benchly 1.5.0 on, in the app under Settings → **Check for updates
 
 ## Updates (Android)
 
-Spectare from 1.4.0 and Benchly from 1.5.0 can check for updates themselves on request: Spectare under ⋮ → About Spectare, Benchly under Settings → **Check for updates**. The app downloads the new APK and opens the Android installer; data and settings are kept.
+Spectare from 1.4.1 and Benchly from 1.5.0 can check for updates on request.
+
+- **Spectare:** ⋮ → About Spectare → **Check for updates** shows a new version and opens the download in your browser. Before installing, **Check downloaded APK** verifies that the file was signed by KaOsCode. The fingerprint is also shown in the dialog and at the bottom of every release page.
+- **Benchly:** Settings → **Check for updates** downloads the new APK and opens the Android installer.
+
+Data and settings are kept when updating.
 
 ## Automatic updates with Obtainium
 
