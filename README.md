@@ -1,6 +1,6 @@
 # KaOsCode Releases
 
-Installationsdateien der Apps von KaOsCode: APKs für Android, für Benchly zusätzlich ein Installer für Windows.
+Installationsdateien der Apps von KaOsCode: APKs für Android, Installer für Windows (Benchly, DocSorter).
 Der Quellcode liegt nicht in diesem Repository.
 
 *English version below.*
@@ -13,6 +13,7 @@ Der Quellcode liegt nicht in diesem Repository.
 | **Benchly** | Kursverläufe von Aktien, ETFs, Indizes und Krypto vergleichen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=benchly) | Erhebt selbst keine Daten. Kurse werden direkt von Yahoo Finance geladen, dabei sieht Yahoo IP-Adresse und abgefragte Symbole. Bei der Suche nach einer WKN wird diese an OpenFIGI (Bloomberg) gesendet. Bei „Nach Updates suchen“ fragt die App GitHub nach der neuesten Version, dabei sieht GitHub die IP-Adresse |
 | **Arrowly** | Logikpuzzle: Pfeile in der richtigen Reihenfolge vom Feld schieben | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=arrowly) | Erhebt keine Daten: keine Berechtigungen, kein Internetzugriff; Spielstand nur auf dem Gerät |
 | **Bonly** | Kassenbons auslesen, Preise über alle Läden vergleichen und Angebote prüfen | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=bonly) | Erhebt selbst keine Daten: Die Bons bleiben auf dem Gerät, die Texterkennung läuft dort, Sicherungen nur als Datei, die du selbst ablegst. Ins Internet geht Bonly nur bei der optionalen Suche nach Packungsgrößen (standardmäßig aus): Dann gehen Namen von den Bons und die Kette an Open Food Facts und bei „Im Web nachsehen“ an Google, die dabei die IP-Adresse sehen |
+| **DocSorter** | Sortiert PDFs aus dem Downloads-Ordner automatisch nach eigenen Regeln ein (Windows) | [Releases](https://github.com/iCat17/KaOsCode-Releases/releases?q=docsorter) | Erhebt selbst keine Daten, die Dokumente bleiben auf dem PC. Ins Internet geht DocSorter nur bei „Nach Updates suchen…“ (nach Rückfrage): Dann fragt es GitHub nach der neuesten Version, dabei sieht GitHub die IP-Adresse. Die optionale lokale KI (Ollama) läuft nur auf dem eigenen Rechner |
 | **FlexStock** | Inventar mit Barcode-Scanner, Fotos und Einkaufsliste | [Google Play](https://play.google.com/store/apps/details?id=com.kaoscode.flexstock) | Erhebt selbst keine Daten, das Inventar bleibt auf dem Gerät. Beim Barcode-Scan wird nur die Barcode-Nummer an öffentliche Produktdatenbanken (u. a. Open Food Facts, Google Books, UPCitemdb) gesendet, die dabei die IP-Adresse sehen. [Datenschutzerklärung](https://icat17.github.io/flexstock-privacy/) |
 
 FlexStock gibt es nur bei Google Play, hier liegen keine Installationsdateien dafür.
@@ -25,13 +26,15 @@ FlexStock gibt es nur bei Google Play, hier liegen keine Installationsdateien da
 
 Ein Entwicklermodus ist nicht nötig.
 
-## Installation (Windows, Benchly)
+## Installation (Windows: Benchly, DocSorter)
 
-1. Unter **Releases** die neueste Benchly-Version öffnen und `benchly-….-setup.exe` herunterladen.
+1. Unter **Releases** die neueste Version der App öffnen und `benchly-….-setup.exe` bzw. `docsorter-….-setup.exe` herunterladen.
 2. Die Datei ausführen. Der Installer ist nicht signiert, deshalb zeigt Windows „Der Computer wurde durch Windows geschützt“: **Weitere Informationen** → **Trotzdem ausführen**.
-3. Optional prüfen: Die Ausgabe von `Get-FileHash .\benchly-….-setup.exe` (PowerShell) muss mit dem Inhalt der `.sha256`-Datei aus dem Release übereinstimmen.
+3. Optional prüfen: Die Ausgabe von `Get-FileHash .\<datei>-setup.exe` (PowerShell) muss mit dem Inhalt der `.sha256`-Datei aus dem Release übereinstimmen.
 
 Update: ab Benchly 1.5.0 in der App unter Einstellungen → **Nach Updates suchen** (auch in der Android-APK). Sonst den neuen Installer herunterladen und ausführen. Vergleich und Einstellungen bleiben erhalten.
+
+DocSorter ab 1.9.0: im Fenster unter Hilfe → **Nach Updates suchen…** oder im Menü des Tray-Symbols. DocSorter lädt den Installer, prüft die Prüfsumme, installiert und startet neu. Regeln und Einstellungen bleiben erhalten.
 
 ## Updates (Android)
 
@@ -60,13 +63,14 @@ kaos-code@outlook.com
 
 # KaOsCode Releases (English)
 
-Installation files for KaOsCode's apps: APKs for Android, plus a Windows installer for Benchly.
+Installation files for KaOsCode's apps: APKs for Android, Windows installers (Benchly, DocSorter).
 The source code is not part of this repository.
 
 Spectare PDF collects no data itself, no backup. It only goes online when you check for updates (after confirming): the app then asks GitHub for the latest version, which sees your IP address. The optional scanner is provided by Google Play Services: documents stay on the device, Google receives usage statistics about the scanner.
 Benchly collects no data itself. Prices are loaded directly from Yahoo Finance, which sees your IP address and the requested symbols. When you search for a WKN, it is sent to OpenFIGI (Bloomberg). When you check for updates, the app asks GitHub for the latest version, which sees your IP address.
 Arrowly collects no data: no permissions, no internet access; game progress stays on the device.
 Bonly (reads receipts, compares prices across all stores and checks offers) collects no data itself: receipts stay on the device, text recognition runs there, and backups are only files you store yourself. Bonly only goes online for the optional pack size lookup (off by default): then names from your receipts and the chain are sent to Open Food Facts, and to Google when you tap "Look it up on the web", which see your IP address.
+DocSorter (Windows: files PDFs from the Downloads folder automatically by your own rules) collects no data itself, documents stay on the PC. It only goes online when you check for updates (after confirming): it then asks GitHub for the latest version, which sees your IP address. The optional local AI (Ollama) runs on your own computer only.
 FlexStock (inventory with barcode scanner, photos and shopping list) is only available on [Google Play](https://play.google.com/store/apps/details?id=com.kaoscode.flexstock), there are no installation files here. It collects no data itself, your inventory stays on the device. When you scan a barcode, only the barcode number is sent to public product databases (including Open Food Facts, Google Books, UPCitemdb), which see your IP address. [Privacy policy](https://icat17.github.io/flexstock-privacy/)
 
 ## Installation (Android)
@@ -77,13 +81,15 @@ FlexStock (inventory with barcode scanner, photos and shopping list) is only ava
 
 No developer mode required.
 
-## Installation (Windows, Benchly)
+## Installation (Windows: Benchly, DocSorter)
 
-1. Open the latest Benchly release under **Releases** and download `benchly-….-setup.exe`.
+1. Open the latest release of the app under **Releases** and download `benchly-….-setup.exe` or `docsorter-….-setup.exe`.
 2. Run the file. The installer is not signed, so Windows shows "Windows protected your PC": **More info** → **Run anyway**.
-3. Optional check: the output of `Get-FileHash .\benchly-….-setup.exe` (PowerShell) must match the content of the `.sha256` file in the release.
+3. Optional check: the output of `Get-FileHash .\<file>-setup.exe` (PowerShell) must match the content of the `.sha256` file in the release.
 
 Update: from Benchly 1.5.0 on, in the app under Settings → **Check for updates** (also in the Android APK). Otherwise download and run the new installer. Your comparison and settings are kept.
+
+DocSorter from 1.9.0 on: in the window under Help → **Check for updates…** or in the tray icon's menu. DocSorter downloads the installer, verifies the checksum, installs it and restarts. Rules and settings are kept.
 
 ## Updates (Android)
 
